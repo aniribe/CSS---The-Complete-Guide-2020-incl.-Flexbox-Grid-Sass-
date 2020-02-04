@@ -7,6 +7,6 @@
 <ul>
 <li>I'll build the frontend (no backend) of a fictional web hosting company</li>
 <li>I'll have a starting screen which has different sections</li>
-<li>I'll gtt a responsive design with an animated side-drawer</li>
+<li>I'll get a responsive design with an animated side-drawer</li>
 <li>I will use modals and forms and in general a lot of CSS animations, font styles and etc</li>
 </ul>
