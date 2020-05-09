@@ -1,8 +1,20 @@
 #product-overview {
-  background: url("freedom.jpg");
-  width: 100%;
-  height: 528px;
-  padding: 10px;
+  /* background: url("freedom.jpg"); */
+  background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
+    url("images/freedom.jpg") left 10% bottom 80% / cover no-repeat border-box,
+    #ff1b68;
+  /* background-size: cover;
+  background-position: left 10% bottom 10%;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-attachment: local; */
+  /* background-image: linear-gradient(red 50%, blue 80%, cyan); */
+  width: 100vw;
+  height: 33vh;
+  /* padding: 10px; */
+  position: relative;
+  margin-top: 2.6rem;
+  /* border: 5px dashed red; */
 }
 
 .section-title {
@@ -13,6 +25,9 @@
 #product-overview h1 {
   color: white;
   font-family: "Anton", sans-serif;
+  position: absolute;
+  bottom: 5%;
+  left: 1%;
 }
 
 .plan_list {
@@ -24,8 +39,8 @@
 .plan {
   background-color: #d5ffdc;
   text-align: center;
-  padding: 16px;
-  margin: 8px;
+  padding: 1rem;
+  margin: 0.5rem;
   display: inline-block;
   width: 30%;
   vertical-align: middle;
@@ -40,7 +55,7 @@
 .plan_annotation {
   background: white;
   color: #19b84c;
-  padding: 8px;
+  padding: 0.5rem;
   box-shadow: 0 7px 10px 1px rgba(31, 30, 30, 0.7);
   border-radius: 3px;
 }
@@ -68,7 +83,7 @@
 }
 
 .plan_features li {
-  margin: 8px 0;
+  margin: 0.5rem 0;
 }
 
 #key-features {
@@ -77,8 +92,8 @@
 
 #key-features .section-title {
   color: white;
-  margin-top: 80px;
-  padding: 16px;
+  margin-top: 5rem;
+  padding: 1rem;
 }
 
 .key-feature_list {
@@ -101,11 +116,12 @@
   border: 2px solid #424242;
   border-radius: 50%;
   margin: auto;
+  padding: 1.2rem;
 }
 
 .key-feature_description {
   text-align: center;
   color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.2rem;
 }
