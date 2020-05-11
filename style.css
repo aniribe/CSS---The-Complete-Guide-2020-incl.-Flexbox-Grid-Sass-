@@ -17,22 +17,17 @@
   /* border: 5px dashed red; */
 }
 
-.section-title {
-  color: #2ddf5c;
-  text-align: center;
-}
-
 #product-overview h1 {
   color: white;
   font-family: "Anton", sans-serif;
   position: absolute;
   bottom: 5%;
   left: 1%;
+  font-size: 1.6rem;
 }
 
-.plan_list {
-  width: 80%;
-  margin: auto;
+.section-title {
+  color: #2ddf5c;
   text-align: center;
 }
 
@@ -40,16 +35,41 @@
   background-color: #d5ffdc;
   text-align: center;
   padding: 1rem;
-  margin: 0.5rem;
-  display: inline-block;
-  width: 30%;
-  vertical-align: middle;
+  margin: 0.5rem 0;
+  width: 100%;
+}
+
+@media (min-width: 40rem) {
+  #product-overview {
+    height: 40vh;
+    background-position: 20% 75%;
+  }
+
+  #product-overview h1 {
+    font-size: 3rem;
+  }
+
+  .plan_list {
+    width: 100%;
+    text-align: center;
+  }
+
+  .plan {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    min-width: 13rem;
+    max-width: 25rem;
+  }
+
+  .plan-highlighted {
+    box-shadow: 0 7px 10px 1px rgba(31, 30, 30, 0.7);
+  }
 }
 
 .plan-highlighted {
   background: #19b84c;
   color: white;
-  box-shadow: 0 7px 10px 1px rgba(31, 30, 30, 0.7);
 }
 
 .plan_annotation {
