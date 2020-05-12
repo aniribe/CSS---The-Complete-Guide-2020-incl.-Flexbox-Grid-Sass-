@@ -17,7 +17,7 @@
   width: 65%;
   max-width: 580px;
   min-width: 350px;
-  display: inline-block;
+  /* display: inline-block; */
   vertical-align: middle;
   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
 }
@@ -30,7 +30,7 @@
 .testimonial__info {
   text-align: right;
   padding: 0.9rem;
-  display: inline-block;
+  /* display: inline-block; */
   vertical-align: middle;
   width: 20%;
 }
