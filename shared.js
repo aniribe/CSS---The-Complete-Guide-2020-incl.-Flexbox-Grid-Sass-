@@ -6,7 +6,7 @@ const modalYesBtn = modal.querySelector("a");
 const toggleBtn = document.querySelector(".toggle-button");
 const mobileNav = document.querySelector(".mobile-nav");
 
-console.log(modalNoBtn);
+console.log(mobileNav);
 
 for (let i = 0; i < selectPlanBtn.length; i++) {
   selectPlanBtn[i].addEventListener("click", function () {
