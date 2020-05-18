@@ -1,19 +1,10 @@
 #product-overview {
-  /* background: url("freedom.jpg"); */
   background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
     url("images/freedom.jpg") left 10% bottom 80% / cover no-repeat border-box,
     #ff1b68;
-  /* background-size: cover;
-  background-position: left 10% bottom 10%;
-  background-repeat: no-repeat;
-  background-clip: border-box;
-  background-attachment: local; */
-  /* background-image: linear-gradient(red 50%, blue 80%, cyan); */
   width: 100vw;
   height: 33vh;
-  /* padding: 10px; */
   position: relative;
-  /* border: 5px dashed red; */
 }
 
 #product-overview h1 {
@@ -174,19 +165,25 @@
 @media (min-width: 40rem) {
   .plan_list {
     width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .plan {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 30%;
-    vertical-align: middle;
+    height: 28rem;
     min-width: 13rem;
     max-width: 25rem;
   }
 
   .plan-highlighted {
     box-shadow: 0 7px 10px 1px rgba(31, 30, 30, 0.7);
+    height: 30rem;
+    z-index: 50;
   }
 
   .key-feature {
@@ -194,5 +191,10 @@
     width: 30%;
     vertical-align: top;
     max-width: 25rem;
+  }
+
+  .key-feature_list {
+    display: flex;
+    justify-content: center;
   }
 }
